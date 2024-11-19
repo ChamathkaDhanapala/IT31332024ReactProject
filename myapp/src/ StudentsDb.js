@@ -1,4 +1,4 @@
-export const students = [
+const students = [
     { studentId: 'UOV15651',firstName: "James", lastName: "Kim", age: 21, course: "IT", gender: "Male", address: { city: "Seoul", country: "Korea" }, skills: ["C++", "Java", "JavaScript"],profilePic:"1.jpg" },
     { studentId:'UOV15652',firstName: "Emily", lastName: "Jones", age: 20, course: "Computer Science", gender: "Female", address: { city: "New York", country: "USA" }, skills: ["Python", "HTML", "CSS"],profilePic:"2.jpg" },
     { studentId: 'UOV15653',firstName: "Michael", lastName: "Smith", age: 22, course: "Engineering", gender: "Male", address: { city: "London", country: "UK" }, skills: ["MATLAB", "Java", "C"] ,profilePic:"3.jpg"},
@@ -18,3 +18,5 @@ export const students = [
     { studentId: 'UOV15617',firstName: "Logan", lastName: "Hill", age: 21, course: "Astronomy", gender: "Male", address: { city: "Houston", country: "USA" }, skills: ["Astro photography", "Celestial Mechanics", "Observational Astronomy"] ,profilePic:"17.jpg"},
     { studentId: 'UOV15618',firstName: "Mia", lastName: "Ward", age: 22, course: "Linguistics", gender: "Female", address: { city: "Barcelona", country: "Spain" }, skills: ["Syntax", "Phonetics", "Language Acquisition"] ,profilePic:"18.jpg"}
 ];
+
+export default students;
