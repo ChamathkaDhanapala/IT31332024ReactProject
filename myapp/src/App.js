@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
-import { students } from './StudentsDb';
-import StudentTable from './components/StudentTable';
-import StudentProfile from './components/StudentProfile';
-import FontSizeChanger from './components/FontSizeChanger';
+import React, { useState } from "react";
+import StudentsDb from "./StudentsDb";
+import FontSizeSelector from "./components/FontSizeSelector";
+import Table from "./components/Table";
+import Profile from "./components/Profile";
 import './compo.css';
 import './App.css';
 
@@ -20,7 +20,7 @@ const App = () => {
     
       <h2 className="topic">Students Information Portal</h2>
       <hr />
-      <FontSizeChanger fontSize={fontSize} setFontSize={setFontSize} />
+      <FontSizeSelector fontSize={fontSize} setFontSize={setFontSize} />
       <hr/>
       <div className="outerDiv" style={{ fontSize }}>
        
